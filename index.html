@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+   <link rel="stylesheet" href="style.css" />
+   <title>JFrivas - Restaurante de Cocina Española</title>
+</head>
+
+<body>
+   <header class="header" id="inicio">
+      <img class="bg" src="img/img/bg.png" alt="Fondo decorativo" />
+      <div class="menu container">
+         <a href="#" class="logo">JFrivas</a>
+         <input type="checkbox" id="menu" />
+         <label for="menu">
+            <img src="img/img/menu.png" class="menu-icono" alt="Abrir menú" />
+         </label>
+         <nav class="navbar">
+            <ul>
+               <li><a href="#inicio">Inicio</a></li>
+               <li><a href="#servicios">Servicios</a></li>
+               <li><a href="#productos">Productos</a></li>
+               <li><a href="#contacto">Contacto</a></li>
+            </ul>
+         </nav>
+         <div>
+            <ul>
+               <li class="submenu">
+                  <img src="img/img/car.svg" id="img-carrito" alt="carrito" />
+                  <div id="carrito">
+                     <table id="lista-carrito">
+                        <thead>
+                           <tr>
+                              <th>Imagen</th>
+                              <th>Nombre</th>
+                              <th>Precio</th>
+                              <th></th>
+                           </tr>
+                        </thead>
+                        <tbody></tbody>
+                     </table>
+                     <a href="#" id="vaciar-carrito" class="btn-3">Vaciar Carrito</a>
+                  </div>
+               </li>
+            </ul>
+         </div>
+      </div>
+      <div class="header-content container">
+         <div class="header-txt">
+            <h1><span>Bienvenidos</span> a la auténtica cocina española  JFrivas</h1>
+            <p>
+               Disfruta de una experiencia gastronómica única donde la tradición española
+               se fusiona con ingredientes frescos de la más alta calidad.
+            </p>
+            
+         </div>
+         <div class="header-img">
+            <img src="img/img/pl-1.png" alt="Plato especial de la casa" />
+         </div>
+      </div>
+   </header>
+
+   <section class="breakfast container" id="servicios">
+      <h2>Desayunos Tradicionales</h2>
+      <p>Disponibles todos los días: 9am - 8pm</p>
+      <div class="breakfast-content">
+         <div class="breakfast-1">
+            <img src="img/img/b1.png" alt="Tostadas" />
+            <h3>Tostadas con Tomate</h3>
+         </div>
+         <div class="breakfast-1">
+            <img src="img/img/b2.png" alt="Tortilla" />
+            <h3>Tortilla Española</h3>
+         </div>
+         <div class="breakfast-1">
+            <img src="img/img/b3.png" alt="Croissants" />
+            <h3>Croissants Artesanales</h3>
+         </div>
+         <div class="breakfast-1">
+            <img src="img/img/b4.png" alt="Café" />
+            <h3>Café y Bollería</h3>
+         </div>
+      </div>
+   </section>
+
+   <section class="info">
+      <img class="bg-2" src="img/img/bg-2.png" alt="" />
+      <div class="info-content container">
+         <div class="info-img">
+            <img src="img/img/breakfast.png" alt="Ingredientes frescos" />
+         </div>
+         <div class="info-txt">
+            <h2>La mejor calidad en cada ingrediente</h2>
+            <p>
+               Seleccionamos personalmente cada producto para garantizar que tu mesa
+               tenga el sabor original de España. Del campo a tu paladar.
+            </p>
+            
+         </div>
+      </div>
+   </section>
+
+<main class="products container" id="productos">
+   <h2>Nuestras Especialidades</h2>
+   <div class="box-container" id="lista-1">
+      <div class="box">
+         <img src="img/img/pla1.png" alt="Paella Valenciana" />
+         <div class="products-txt">
+            <h3>Paella Valenciana</h3>
+            <p>Calidad premium</p>
+            <p class="precio">$200</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+         </div>
+      </div>
+      <div class="box">
+         <img src="img/img/pla2.png" alt="Gazpacho Andaluz" />
+         <div class="products-txt">
+            <h3>Gazpacho Andaluz</h3>
+            <p>Calidad premium</p>
+            <p class="precio">$150</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+         </div>
+      </div>
+      <div class="box">
+         <img src="img/img/pla3.png" alt="Jamón Ibérico" />
+         <div class="products-txt">
+            <h3>Jamón Ibérico</h3>
+            <p>Calidad premium</p>
+            <p class="precio">$350</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+         </div>
+      </div>
+      <div class="box">
+         <img src="img/img/pla4.png" alt="Pulpo Gallego" />
+         <div class="products-txt">
+            <h3>Pulpo Gallego</h3>
+            <p>Calidad premium</p>
+            <p class="precio">$280</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+         </div>
+      </div>
+
+      <div class="box">
+         <img src="img/img/pla5.png" alt="Arroz con camarones" />
+         <div class="products-txt">
+            <h3>Arroz con camarones</h3>
+            <p>Calidad premium</p>
+            <p class="precio">$120</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+         </div>
+      </div>
+      <div class="box">
+         <img src="img/img/pla6.png" alt="Sopa de tomate " />
+         <div class="products-txt">
+            <h3>Sopa de tomate</h3>
+            <p>Calidad premium</p>
+            <p class="precio">$100</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+         </div>
+      </div>
+      <div class="box">
+         <img src="img/img/pla7.png" alt="torta de maiz española" />
+         <div class="products-txt">
+            <h3>torta de maiz </h3>
+            <p>Calidad premium</p>
+            <p class="precio">$90</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+         </div>
+      </div>
+      <div class="box">
+         <img src="img/img/pla8.png" alt="pez Romana" />
+         <div class="products-txt">
+            <h3>Pez Romana</h3>
+            <p>Calidad premium</p>
+            <p class="precio">$180</p>
+            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+         </div>
+      </div>
+   </div>
+   <div class="btn-2" id="load-more">Ver Menú Completo</div>
+</main>
+
+
+
+   <section class="app container">
+      <div class="app-txt">
+         <h2>Descarga nuestra app y pide a domicilio</h2>
+         <p>
+            Obtén un 15% de descuento en tu primer pedido utilizando el código JF-APP.
+            Disponible en todas las plataformas.
+         </p>
+         <div class="descarga">
+            <img src="img/img/store1.png" alt="Google Play" />
+            <img src="img/img/store2.png" alt="App Store" />
+         </div>
+      </div>
+      <div class="app-img">
+         <img src="img/img/app.png" alt="App preview" />
+      </div>
+   </section>
+
+   <footer class="footer" id="contacto">
+      <div class="footer-content container">
+         <div class="link">
+            <h3>Navegación</h3>
+            <ul>
+               <li><a href="#inicio">Inicio</a></li>
+               <li><a href="#servicios">Servicios</a></li>
+               <li><a href="#productos">Productos</a></li>
+               <li><a href="#contacto">Contacto</a></li>
+            </ul>
+         </div>
+         <div class="link">
+            <h3>Horarios</h3>
+            <ul>
+               <li>Lunes a Viernes: 9:00 - 22:00</li>
+               <li>Sábados: 10:00 - 23:00</li>
+               <li>Domingos: 10:00 - 20:00</li>
+            </ul>
+         </div>
+         <div class="link">
+            <h3>Contacto</h3>
+            <ul>
+               <li>Calle Gastronomía 123</li>
+               <li>Madrid, España</li>
+               <li>Tel: +34 900 000 000</li>
+            </ul>
+         </div>
+         <div class="link">
+            <h3>Síguenos</h3>
+            <div class="socials">
+               <a href="#"><i class="fab fa-facebook"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-youtube"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="app.js"></script>
+</body>
+
+</html>
