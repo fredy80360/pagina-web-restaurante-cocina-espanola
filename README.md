@@ -304,7 +304,7 @@ Este proyecto está bajo la licencia **MIT**. Consulta el archivo [LICENSE](LICE
 
 ¿Tienes preguntas o sugerencias?
 
-- 📧 **Email:** tu.email@ejemplo.com
+- 📧 **Email:** jfrivas.email@ejemplo.com
 - 💬 **Issues:** [Crear un issue en GitHub](https://github.com/tuusuario/Pagina-web-productos/issues)
 - 🌐 **Sitio Web:** [jfrivas.com](#)
 - 📱 **Redes Sociales:**
@@ -330,7 +330,7 @@ Performance Score: 95/100
 
 <div align="center">
 
-**Hecho con ❤️ por [Tu Nombre]**
+**Hecho con ❤️ por [JFrivas](#)**
 
 ⭐ Si te gusta este proyecto, no olvides darle una estrella en GitHub
 
